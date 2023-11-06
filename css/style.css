@@ -1,0 +1,234 @@
+ .body{
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ 
+ .nav-section{
+    background: #FFFBF0;
+    width: 100%;
+    height: 715px;
+    
+
+ }
+ .nav-img img{
+    width: 30%;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 100px;
+
+
+
+}
+    nav ul{
+        display: flex;
+        gap:40px;
+    }
+    nav li{
+        list-style: none;
+        color: #3C3C3C;
+        font-family: Roboto;
+       font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    /* banner section style */
+    .button-img img{
+        width: 30%;
+    }
+    .button-img{
+        display: flex;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+        border:none;
+        padding: 10px 34px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .banner-img img{
+        width: 500px;
+        height: 510px;
+       
+    }
+    .banner{
+        display: flex;
+        padding: 0px 100px;
+    }
+    .banner-title{
+        font-size:80px ;
+        font-weight: 900;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 100px;
+    }
+    .span-title{
+        font-size:80px ;
+        font-weight: 900;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #FABE4C;
+    }
+    .banner-discription{
+        color: #3E3E3E;
+        font-family: Roboto;
+        font-size:18px;
+        font-style: normal;
+        font-weight: 400;
+        margin-right: 360px;
+        margin-top: -50px;
+        
+    }
+    /* ===========================woman jacket style============================= */
+    .woman-jackert{
+        padding:30px 100px 0px 100px;
+    }
+    .col img{
+        width: 10%;
+    }
+    .woman-title{
+        color: #363958;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .cols-title{
+        color: #363958;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+
+
+    }
+    .lorem-discription{
+        font-size: 16px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 300px;
+        margin-top: -10px;
+    }
+    .jacket-dollar{
+        display: flex;
+        gap: 30px;
+    }
+    .jacket-dollar-title{
+        color: #FABE4C;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+
+    }
+    .button-images{
+        display: flex;
+        background-color: #A4BC46;
+        border:none;
+        padding: 10px 34px;
+        color: #ffffff;
+        gap: 5px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+
+
+    }
+    .button-images img{
+        width:30%;
+    }
+    .col img{
+        border:1px solid;
+        width: 293px;
+        height: 293px;
+
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        border:none;
+        border-radius: 10px;
+        
+    }
+    .jacket{
+        display: grid;
+        grid-template-columns: repeat(3 ,400px);
+        column-gap: 50px;
+        
+
+    }
+    
+    .row{
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+        padding: 40px;
+        margin-top: -20px;
+    }
+   /* ============================= Man Jacket section style========================== */
+   .woman-jackert{
+    
+   }
+   /* ================================Perfect Fit===================================== */
+
+.col-er{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+width: 489px;
+height: 135px;
+margin-bottom: 16px;
+
+
+}
+.perfect-img img{
+    width: 78px;
+    height: 82px;
+}
+.perfect-title{
+    color: #363958;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.perfect-discription{
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 280px;
+}
+.shopping-img img{
+    width: 500px;
+height: 350px;
+ 
+}
+.row-er {
+    display: flex;
+    column-gap: 210px;
+    
+}
+.perfect-fit{
+    padding:50px 100px ;
+}
+.hide{
+    display:none;
+}
+/* responsive style section */
+@media screen and (max-width:576px) {
+    .banner{
+       display: flex;
+       flex-direction: row;
+   
+    
+    }
+}
+    
+
+
+        
+  
+  
